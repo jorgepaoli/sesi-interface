@@ -1,4 +1,4 @@
-"use client"; // Indique que ce composant utilise des interactions côté client
+"use client";
 
 import { useState } from "react";
 import Header from "../../components/Header";
@@ -20,7 +20,6 @@ export default function CadNotas() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous pouvez ajouter la logique pour enregistrer les notes
     setMensagem("Notas lançadas com sucesso!");
   };
 
@@ -55,10 +54,10 @@ export default function CadNotas() {
             }}>
               <thead>
                 <tr style={{ backgroundColor: "var(--background-red)", color: "white" }}>
-                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Aluno</th>
-                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Nota 1</th>
-                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Nota 2</th>
-                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Nota 3</th>
+                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Aluno(a)</th>
+                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Trabalho #1</th>
+                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Trabalho #2</th>
+                  <th style={{ padding: "0.75rem", textAlign: "left", borderBottom: "1px solid #ddd" }}>Trabalho #3</th>
                 </tr>
               </thead>
               <tbody>

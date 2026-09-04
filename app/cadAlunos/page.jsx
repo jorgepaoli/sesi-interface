@@ -1,4 +1,4 @@
-"use client"; // Indique que ce composant utilise des interactions côté client
+'use client';
 
 import { useState } from "react";
 import Header from "../../components/Header";
@@ -12,7 +12,6 @@ export default function CadAlunos() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous pouvez ajouter la logique pour enregistrer l'élève
     setMensagem("Aluno cadastrado com sucesso!");
     setNome("");
     setMatricula("");
@@ -47,7 +46,7 @@ export default function CadAlunos() {
         }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <label htmlFor="nome" style={{ marginBottom: "0.5rem", fontWeight: "bold" }}>
-              Nome do Aluno:
+              Nome do Aluno(a):
             </label>
             <input
               type="text"

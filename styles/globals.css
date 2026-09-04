@@ -1,5 +1,5 @@
 :root {
-  --background: #ffffff; /* Fond blanc */
+  --background: #f2f5f5; /* Custom light gray background */
   --foreground: #d32f2f; /* Rouge principal pour le texte */
   --background-red: #d32f2f; /* Rouge pour les boutons et éléments importants */
   --foreground-white: #ffffff; /* Texte blanc pour le contraste */
@@ -10,11 +10,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1a1a1a; /* Fond sombre */
-    --foreground: #ff5722; /* Rouge clair pour le texte */
-    --background-red: #ff5722; /* Rouge clair pour les boutons */
-    --foreground-white: #1a1a1a; /* Texte sombre pour le contraste */
-    --accent: #ff9800; /* Orange clair pour les accents */
+    --background: #f2f5f5; /* Forced light gray background */
+    --foreground: #d32f2f;
+    --background-red: #d32f2f;
+    --foreground-white: #ffffff;
+    --accent: #ff5722;
   }
 }
 
